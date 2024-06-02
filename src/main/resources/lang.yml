@@ -1,0 +1,12 @@
+## Player language
+# auto or the name of the language file in the "lang" folder
+# If auto, the player's language will be determined by their client in-game local code
+player-language: auto
+## Console language
+# the name of a language file in the "lang" folder without .yml
+console-language: en_us
+## Fallback language
+# the name of a language file in the "lang" folder without .yml
+# If the player's or console language is not found, the fallback language will be used
+# If the fallback language is not found, en_us will be used
+fallback-language: en_us

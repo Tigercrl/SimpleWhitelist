@@ -1,0 +1,16 @@
+name: SimpleWhitelist
+version: '${version}'
+main: io.github.tigercrl.simplewhitelist.SimpleWhitelist
+api-version: '1.16'
+authors: [Tigercrl]
+description: A name-based whitelist plugin
+commands:
+  simplewhitelist:
+    description: Main command for the plugin
+    permission: simplewhitelist.command
+    aliases:
+      - swl
+permissions:
+  simplewhitelist.command:
+    description: Main command for the plugin
+    default: op
